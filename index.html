@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body id="inicio">
+
+        <!-- Cabecera con navegador de secciones -->
+        <header class="cabecera">
+            <h1>Sebastián Fernández</h1>
+            <h2>Desarrollo de Software</h2>
+            <nav class="cierre">
+                <a href="#quienSoy">Quien soy</a>
+                <a href="#misConocimientos">Mis conocimientos</a>
+                <a href="#formularioContacto">Contacto</a>
+            </nav>
+        </header>
+        
+        <!-- main conteniendo las diferentes secciones -->
+        <main>
+            <aside>
+                <h3 id="h3_aside">Mis trabajos...</h3>
+                <h4 class="h4_aside">Torres de Hanoi (V1)</h4>
+                <p class="p_aside">Realizado en Python sobre consola, se encuentra basado en el tradicional juego lúdico. Está desarrollado básicamente sobre el paradigma lineal, tabién conocido como "spaguetti".<br>Surge a manera de práctica, para asimilar la sintaxis del lenguaje.</p>
+                <h4 class="h4_aside">Bola mágica</h4>
+                <p class="p_aside">Realizado en Python con interfaz gráfica basada el las librerías TKinter. Básico juego de preguntas y respuestas al estilo "adivino", realizado como proyecto de aporbación de Codo a Codo inicial.</p>
+                <h4 class="h4_aside">Torres de Hanoi (V2)</h4>
+                <p class="p_aside">Nueva versión basada en el tradicional juego lúdico, desarrollada en C#, como práctica y asimilación del paradiga de la programación orientada a objetos.</p>
+                <h4 class="h4_aside">Gestor de Club Deportivo</h4>
+                <p class="p_aside">App desarrollada en Android Studio utilizando Kotlin, realizada como proyecto final en la cátedra "Desarrollo de aplicaciones para dispositivos móviles", de la presente carrera.</p>
+            </aside>
+
+            <!-- Sección "quienSoy" -->
+            <section id="quienSoy" class="cierre">
+                <article>
+                    <h3 class="cabecera">Quien soy</h3>
+                    <div>
+                        <img src="images/programador500.jpg" alt="Persona programando">
+                    </div>
+                    <div>
+                        <p>Nací el 14 de septiembre del año 1975 y soy oriundo de la ciudad de Punta Alta, provincia de Buenos Aires, localidad en la que resido.<br>Desde pequeño me interesaron las ciencias exactas y la lógica, por lo que transitando séptimo grado de mi formación primaria, tuve mi primer acercamiento a la informática, realizando un curso de basic en el entorno de Commodore 64C, en el cual aprendí la lógica binaria y el diseño de diagramas de flujo, conocimientos que me acompañan hasta hoy y que resultan de vigencia plena.<br>Allá por 1989, ya en primer año de la escuela secundaria tuve acceso a mi primera computadora, siendo esta una PC XT 8086, con la cual profundicé mis conocimientos en el área, realizando unos cursos básicos sobre D.O.S., Lotus123 y GW Basic, los cuales me ayudaron a continuar formándome. Tras el consejo de un programador amigo de la familia, el cual me refirió "hacete dos o tres copias del diskette del sistema operativo y después probá todo lo que quieras probar porque la compu no se va a romper...", comencé con mi aprendizaje autodidacta, programando en Dbase III Plus.<br>Finalizados mis estudios secundarios en la E.N.E.T. N° 1 de Punta Alta, recibiéndome de Técnico en Electrónica, inicié estudios universitarios en la UTN, los cuales quedaron inconclusos, no sin antes acercarme a la programación en C.<br>Por razones de la vida misma, me alejé de la formación en informática, pero siempre siguió vigente mi interés y apasionamiento por la programación, los que me llevaron, en el año 2022, a tomar el curso de Python ofrecido por la Agencia de aprendizaje a lo largo de la vida en su programa Codo a Codo, contexto en el que tomé conocimiento del lanzamiento de la presente carrera, en la que me anoté y tuve la suerte de haber sido seleccionado para conformar la primer cohorte.</p>
+                    </div>
+                </article>
+                <p class="retorno"><a href="#inicio">Inicio</a></p>
+            </section>
+
+            <!-- Sección "misConocimientos" -->
+            <section id="misConocimientos" class="cierre">
+                <article>
+                    <h3 class="cabecera">Mis conocimientos</h3>
+                    <p>En esta sección se listan los lenguajes de programación modernos sobre los que ya he adquirido conocimientos y sobre los que me plantean cierta inquietud para familliarizarme con ellos.</p>
+                    <table>
+                        <tr>
+                            <th>Adquiridos</th>
+                            <th>Inquietudes</th>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>Java</td>
+                        </tr>
+                        <tr>
+                            <td>C#</td>
+                            <td>JS</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Kotlin</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </article>
+                <p class="retorno"><a href="#inicio">Inicio</a></p>
+            </section>
+
+            <!-- Sección "formularioContacto" -->
+            <section id="formularioContacto" class="cierre">
+                <article>
+                    <h3 class="cabecera">Formulario para Contacto</h3>
+                    <p>Rellena el presente formulario y a la brevedad te estaré contactando.</p>
+                    <div>
+                        <form action="">
+                            <p class="form"><label>Nombre: <input class="inp" type="text" name="nombre" placeholder="Nombre/s" pattern="[a-zA-Z áéíóúÁÉÍÓÚäëïöüÄËÏÖÜ']{3,25}" required></label></p>
+                            <p class="form"><label>Apellido: <input class="inp" type="text" name="apellido" placeholder="Apellido/s" pattern="[a-zA-Z áéíóúÁÉÍÓÚäëïöüÄËÏÖÜ']{3,25}" required></label></p>
+                            <p class="form"><label>Correo electrónico: <input class="inp" type="email" name="email" placeholder="micorreo@dominio" required></label></p>
+                            <p class="form"><label>Teléfono: <input class="inp" type="tel" name="telefono" pattern="[0-9]{10}" maxlength="10" placeholder="celulares sin 0, sin 15"></label></p>
+                            <p class="form"><input type="submit" value="Enviar" class="inp"></p>
+                        </form>
+                    </div>
+                </article>
+                <p class="retorno"><a href="#inicio">Inicio</a></p>
+            </section>
+        </main>
+
+        <!-- footer con los datos de la Institución, carrera y cátedra -->
+        <footer>
+            <p id="foot">Desarrollo de Sistemas Web (Front End)<br>Tecnicatura Superior en Desarrollo de Software<br>Instituto de Formación Técnica Superior N° 29</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+/* Estilos universales */
+* {
+    font-family: sans-serif;
+}
+
+/* Estilos por clase */
+.cabecera {
+    color: aliceblue;
+    background-color: darkcyan;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cierre {
+    background-color:lightseagreen;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.retorno {
+    text-align: center;
+}
+
+.inp {
+    color: darkslategray;
+    border-color: darkcyan;
+    background-color: aquamarine;
+}
+
+.form {
+    margin: 0;
+}
+    
+/* Estilos por elemento */
+body {
+    background-color: aquamarine;
+}
+
+header {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav {
+    padding: 0.40em 0;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: darkslategrey;
+    width: 75%;
+}
+
+img {
+    max-width: 500px;
+    width: 30%;
+    float: right;
+    padding: 0.40em;
+    border-radius: 15px;
+}
+
+a {
+    background-color: lightseagreen;
+    color: darkslategray;
+    margin: 5%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h3 {
+    padding: 0.40em 0;
+}
+
+aside {
+    border-radius: 15px;
+    color: aliceblue;                           
+    background-color:cadetblue;
+    float: right;
+    width: 24%;
+    height: 100%;
+}
+
+p {
+    padding: 0.40em;
+    text-align: justify;
+}
+
+#h3_aside, form, .h4_aside {
+    padding: 0.40em;
+}
+
+.h4_aside {
+    margin-bottom: 0;
+}
+
+.p_aside {
+    margin-top: 0;
+}
+
+#foot {
+    word-spacing: 0.50em;
+    font-size: 0.80em;
+    text-align: center;
+    color: darkslategray;
+}
+
+table {
+    margin: 0 auto;
+    width: 30%;
+    border-collapse: collapse;
+}
+  
+table, th, td {
+    border: 2px solid darkcyan;
+}
