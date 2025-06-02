@@ -51,7 +51,9 @@ section {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: darkslategrey;
-    width: 75%;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*width: 75%;*/
 }
 
 img {
@@ -80,9 +82,9 @@ aside {
     border-radius: 15px;
     color: aliceblue;                           
     background-color:cadetblue;
-    float: right;
-    width: 24%;
-    height: 100%;
+    height:100%;
+    margin-top: 18.72px;
+    margin-left: 10px;
 }
 
 p {
@@ -92,6 +94,7 @@ p {
 
 #h3_aside, form, .h4_aside {
     padding: 0.40em;
+    margin-top: 0;
 }
 
 .h4_aside {
@@ -118,3 +121,10 @@ table {
 table, th, td {
     border: 2px solid darkcyan;
 }
+
+/* Etapa 2: flex */
+.contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
