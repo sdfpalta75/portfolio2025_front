@@ -49,7 +49,7 @@ header {
 nav {
     padding: 0.40em 0;
     text-align: center;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 section {
@@ -135,6 +135,17 @@ table, th, td {
 }
 
 /* Etapa 2: flex */
+.contenedorNav {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around
+    
+}
+
+.cajaNav {
+    margin: 0.5em;
+    flex:0%;
+}
 .contenedor {
     display: flex;
     flex-direction: row-reverse;
