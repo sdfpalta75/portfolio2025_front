@@ -19,11 +19,9 @@
 
 .retorno {
     text-align: center;
-    
     margin-bottom: 0;
     border-bottom: 0;
     padding-bottom: 0.40em;
-
 }
 
 .inp {
@@ -49,7 +47,6 @@ header {
 nav {
     padding: 0.40em 0;
     text-align: center;
-    /*width: 100%;*/
 }
 
 section {
@@ -139,13 +136,13 @@ table, th, td {
     display: flex;
     flex-direction: row;
     align-content: space-around
-    
 }
 
 .cajaNav {
     margin: 0.5em;
     flex:0%;
 }
+
 .contenedor {
     display: flex;
     flex-direction: row-reverse;
@@ -154,7 +151,6 @@ table, th, td {
 
 #box2 {
     flex: 4;
-    /*background-color: blue;*/
 }
 
 #box1 {
@@ -173,3 +169,26 @@ table, th, td {
     flex: content;
 }
 
+@media (max-width: 768px) {
+    .contenedor {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    aside {
+        margin-left: 0em;
+    }
+}
+
+@media (max-width: 375px) {   
+    .contenedorNav {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around
+    }
+
+    #imgQuienSoy {
+        display: none;
+    }
+}
