@@ -56,13 +56,15 @@ section {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: darkslategrey;
-    margin-top: 0;
     margin-bottom: 0;
 }
 
 article {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    padding-top: 0em;
+    border-top: 0em;
+    margin-top: 0em;
 }
 
 img {
@@ -85,14 +87,15 @@ h1, h2, h3 {
 
 h3 {
     padding: 0.40em 0;
+    margin-top: 0em;
 }
 
 aside {
     border-radius: 15px;
     color: aliceblue;                           
     background-color:cadetblue;
-    margin-top: 18.72px;
-    margin-left: 10px;
+    margin-top: 1em;
+    margin-left: 0.6em;
     margin-bottom: 0;
 }
 
@@ -147,4 +150,15 @@ table, th, td {
     flex: 1;
 }
 
+.contenedorDeArticulos {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.articulo1, .articulo2, .articulo3 {
+    margin-top: 1em;
+
+    flex: content;
+}
 
