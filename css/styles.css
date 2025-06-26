@@ -19,6 +19,11 @@
 
 .retorno {
     text-align: center;
+    
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0.40em;
+
 }
 
 .inp {
@@ -51,7 +56,13 @@ section {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: darkslategrey;
-    width: 75%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+article {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 img {
@@ -80,9 +91,9 @@ aside {
     border-radius: 15px;
     color: aliceblue;                           
     background-color:cadetblue;
-    float: right;
-    width: 24%;
-    height: 100%;
+    margin-top: 18.72px;
+    margin-left: 10px;
+    margin-bottom: 0;
 }
 
 p {
@@ -92,6 +103,7 @@ p {
 
 #h3_aside, form, .h4_aside {
     padding: 0.40em;
+    margin-top: 0;
 }
 
 .h4_aside {
@@ -118,3 +130,21 @@ table {
 table, th, td {
     border: 2px solid darkcyan;
 }
+
+/* Etapa 2: flex */
+.contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+#box2 {
+    flex: 4;
+    /*background-color: blue;*/
+}
+
+#box1 {
+    flex: 1;
+}
+
+
